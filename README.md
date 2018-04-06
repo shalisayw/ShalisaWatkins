@@ -1,4 +1,4 @@
-![Shalisa photo]()
+![Shalisa photo](./wings.jpg)
 # Shalisa Watkins
 
 Welcome to my portfolio page. This is a place to showcase some of my work.
