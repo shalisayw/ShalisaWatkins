@@ -1,0 +1,26 @@
+body{
+  background-color: plum;
+}
+div{
+  background-color: violet;
+}
+
+p{
+  color:white;
+}
+.navigate{
+  text-align: center;
+  border-style: ridge;
+  border-color: teal;
+  }
+  .header{
+    border-bottom-color: teal;
+    border-style:double;
+  }
+  .content{
+    border-right-color: aqua;
+    border-left-style:dotted;
+  }
+  .footer{
+   border-style:double;
+  }
