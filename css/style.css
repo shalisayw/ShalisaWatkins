@@ -1,26 +1,60 @@
 body{
-  background-color: plum;
+  background-color: gray;
 }
 div{
-  background-color: violet;
+  background-color: teal;
 }
 
 p{
   color:white;
 }
+h1 {
+  background-color: teal;
+}
+a:hover{
+color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:  75px
+}
+
+#primary {
+  text-align:center;
+  font-weight: bold;
+  border-style:double;
+}
+.facts{
+  border-style: groove;
+  background-color: teal;
+}
 .navigate{
   text-align: center;
   border-style: ridge;
   border-color: teal;
+  padding-bottom: 10px;
+
   }
   .header{
     border-bottom-color: teal;
     border-style:double;
+
   }
   .content{
     border-right-color: aqua;
     border-left-style:dotted;
+
   }
+
+  .highlight{
+color:plum;
+font-weight:bolder;
+  }
+
   .footer{
    border-style:double;
+   text-align:center;
   }
