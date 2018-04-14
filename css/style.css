@@ -8,9 +8,11 @@ div{
 p{
   color:white;
 }
+
 h1 {
   background-color: teal;
 }
+
 a:hover{
 color: white;
 }
@@ -27,26 +29,66 @@ img {
   font-weight: bold;
   border-style:double;
 }
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
 .facts{
   border-style: groove;
   background-color: teal;
 }
 .navigate{
   text-align: center;
-  border-style: ridge;
+  /* border-style: ridge; */
   border-color: teal;
-  padding-bottom: 10px;
-
+  /* padding-bottom: 10px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  widows: 100vw;
   }
+
+  .navigate > ul > li {
+position: relative;
+  display: inline;
+  list-style: none;
+}
+.navigation > ul.container {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigate .dropdown{
+  position:absolute;
+  top: 1px;
+  /* top: 1em; */
+  left: 0;
+  display: none;
+  text-align: left;
+}
+
+.navigate a:hover + .dropdown {
+  display: block;
+}
+
+.dropdown:hover {
+display: block;
+}
+
   .header{
     border-bottom-color: teal;
     border-style:double;
-
+    margin-top:1.3em;
   }
+
   .content{
     border-right-color: aqua;
     border-left-style:dotted;
-
   }
 
   .highlight{
