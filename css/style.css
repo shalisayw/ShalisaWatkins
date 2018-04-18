@@ -7,10 +7,15 @@ div{
 
 p{
   color:white;
+  text-align: center;
 }
 
 h1 {
   background-color: teal;
+  text-align: center;
+}
+li{
+  list-style-type: circle;
 }
 
 a:hover{
@@ -22,6 +27,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius:  75px
+}
+#greeting{
+  background-color: teal;
+}
+
+#greeting p {
+  font-weight:bold;
+  text-decoration: underline;
 }
 
 #primary {
@@ -39,18 +52,16 @@ img {
 }
 .navigate{
   text-align: center;
-  /* border-style: ridge; */
   border-color: teal;
-  /* padding-bottom: 10px; */
   position: fixed;
-  top: 0;
-  left: 0;
+  top:0;
+  left: 10;
   height: auto;
   widows: 100vw;
   }
 
   .navigate > ul > li {
-position: relative;
+  position: relative;
   display: inline;
   list-style: none;
 }
@@ -66,7 +77,6 @@ position: relative;
 .navigate .dropdown{
   position:absolute;
   top: 1px;
-  /* top: 1em; */
   left: 0;
   display: none;
   text-align: left;
@@ -88,8 +98,7 @@ display: block;
 
   .content{
     border-right-color: aqua;
-    border-left-style:dotted;
-  }
+    }
 
   .highlight{
 color:plum;
