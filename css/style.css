@@ -28,6 +28,11 @@ img {
   margin-right: auto;
   border-radius:  75px
 }
+video {
+  display:block;
+  margin: 0 auto;
+}
+
 #greeting{
   background-color: teal;
 }
