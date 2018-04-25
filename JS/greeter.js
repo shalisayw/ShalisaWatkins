@@ -9,7 +9,7 @@ var checkName = function(){
 checkName();
 var output = document.querySelector('#greeting');
 if (name){
-output.innerHTML = "<p>Thanks for visiting, "+ name + "!</p>";
+output.innerHTML = "<p>Thanks for visiting, "+ firstname +" " +lastname" !</p>";
 } else {
   output.innerHTML = "<p>Please tell us your name!</p>";
 }
