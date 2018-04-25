@@ -10,7 +10,7 @@ p{
   text-align: center;
 }
 
-h1 {
+h1,h2 {
   background-color: teal;
   text-align: center;
 }
@@ -27,7 +27,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius:  75px
+
 }
+
 video {
   display:block;
   margin: 0 auto;
@@ -45,7 +47,7 @@ video {
 #primary {
   text-align:center;
   font-weight: bold;
-  border-style:double;
+
 }
 .container{
   max-width: 960px;
@@ -67,7 +69,7 @@ video {
 
   .navigate > ul > li {
   position: relative;
-  display: inline;
+  display:list-item;
   list-style: none;
 }
 .navigation > ul.container {
