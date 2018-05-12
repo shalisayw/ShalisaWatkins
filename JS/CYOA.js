@@ -11,15 +11,15 @@ if(response === "sleep"){
 if(response === "Close the curtain"){
    response = prompt("You close the curtain and walk to your kitchen. As you grab a glass, you hear a tapping noise from your living room. Check it out or Ignore?");
 } else if (response === "keep watching") {
-  response = prompt("The figure looks up. Your hair stands on end as you realize something is not right.");
+  response = prompt("The figure looks up. Your hair stands on end as you realize something is not right. Hide or Call for help.");
 }
  else {
-   prompt("Are you giving up? Y/N?")
+   alert("Thanks for playing.")
  }
-
-if (response === "Y"){
-  alert("Thanks for playing!");
-}
-else{
-  alert("Let's see what happens next.");
-}
+//
+// if (response === "Y"){
+//   alert("Thanks for playing!");
+// }
+// else{
+//   alert("Let's see what happens next.");
+// }

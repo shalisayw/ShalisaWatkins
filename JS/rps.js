@@ -1,5 +1,5 @@
 var gameRound = function(){
-  var userChoice = prompt("Choose Rock, Paper, or Scissors by typing 'R', 'P', or 'S'");
+  var userChoice = prompt("Choose Rock, Paper, or Scissors by typing in caps 'R', 'P', or 'S'");
   var rng = Math.random();
   var computerChoice = "R";
 

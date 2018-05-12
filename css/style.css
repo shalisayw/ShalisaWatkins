@@ -44,22 +44,29 @@ video {
   text-decoration: underline;
 }
 
-#primary {
+
+.primary {
   text-align:center;
   font-weight: bold;
+  }
 
-}
-.container{
+.container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+#highlighted {
+  background-color: beige;
+  font-weight:bolder;
 }
 .facts{
   border-style: groove;
   background-color: teal;
 }
+
 .navigate{
   text-align: center;
-  border-color: teal;
+  border-color: white;
   position: fixed;
   top:0;
   left: 10;
@@ -70,10 +77,9 @@ video {
   .navigate > ul > li {
   position: relative;
   display:list-item;
-  list-style: none;
+  list-style:none;
 }
 .navigation > ul.container {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -103,16 +109,16 @@ display: block;
     margin-top:1.3em;
   }
 
-  .content{
+.content{
     border-right-color: aqua;
-    }
+}
 
-  .highlight{
+.highlight{
 color:plum;
 font-weight:bolder;
-  }
+}
 
-  .footer{
+.footer{
    border-style:double;
    text-align:center;
-  }
+}
